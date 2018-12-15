@@ -7,6 +7,9 @@
     "changelogs",
     "change logs"
   ],
+  "bin": {
+    "clh": "./bin/clh"
+  },
   "version": "0.0.1",
   "dependencies": {
     "chalk": "^2.4.1",
