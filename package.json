@@ -10,7 +10,7 @@
   "bin": {
     "clh": "./bin/clh"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "chalk": "^2.4.1",
     "inquirer": "^6.2.1",
