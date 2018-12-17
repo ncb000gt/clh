@@ -154,7 +154,7 @@
 				.join('\n') +
 			'\n\n';
 
-		console.log('Constructing Changelog');
+		console.log('Constructing CHANGELOG.md');
 		const whereToOutputQuestion = [
 			{
 				type: 'list',
@@ -180,7 +180,7 @@
 				break;
 
 			case 'disk':
-				prependFile('./CHANGELOG', log, err => {
+				prependFile('./CHANGELOG.md', log, err => {
 					if (err) {
 						console.error(
 							'There was a problem writing the changelog out. Here it is in case it did not write to disk.'
